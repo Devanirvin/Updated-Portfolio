@@ -1,0 +1,125 @@
+.Header{
+width: 900px;
+height: 80px;
+background:lightblue;
+padding: 10px;
+text-align: center;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 1000px;
+  background: lightblue;
+}
+
+.body-style{
+display: black;
+background-color:white;
+margin: 10px;
+width: 1000px;
+font-family: Arial, Helvetica, sans-serif;
+float: right
+}
+
+.links {
+padding: 25px 0;
+background-color:grey;
+}
+
+.links li {
+padding: 25px;
+display: inline;
+font-weight: 800;
+}
+
+.footer {
+  clear: center;
+  padding: 10px;
+  background: grey;
+  color: white;
+  text-align: right;
+  width: 100%;
+  margin: 0 auto;
+  position: fixed;
+  bottom: 0;
+}
+
+.my-photo {
+  width: 200px;
+  float: right;
+  
+}
+
+.para {
+  width: 600px;
+  
+}
+
+.my-photo1 {
+  width: 200px;
+  float: left;
+  padding: 0px, 
+}
+
+.my-photo2 {
+  width: 200px;
+  float: left;
+}
+
+.body-2{
+  margin: 0;
+  padding: 0;
+  background: url(bg.jfif);
+  background-size: cover;
+}
+.contact-form{
+  width: 85%;
+  max-width: 600px;
+  background: lightblue;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  padding: 30px 40px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 0 20px grey;
+  font-family: "montserrat",sans-serif;
+}
+
+.contact-form h1{
+  margin-top: 0;
+  font-weight: 200;
+}
+.txtb{
+  border: 1px solid grey;
+  margin: 8px, 0;
+  padding: 12px 18px;
+  border-radius: 8px;
+}
+.txtb label{
+  display: block;
+  text-align: left;
+  color: #333:
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.txtb input,.txtb textarea{
+  width: 100%;
+  border: none;
+  background: none;
+  outline: none;
+  font-size: 18px;
+  margin-top: 6px;
+}
+.btn{
+  display: inline-block;
+  background: lightblue;
+  padding: 14px 0;
+  color: white;
+  text-transform: uppercase;
+  curser: pointer;
+  margin-top: 8px;
+  width: 100$
+}
